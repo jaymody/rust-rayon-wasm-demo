@@ -13,6 +13,8 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
+    "wasm-demo": "file:./pkg",
+    "wasm-demo-parallel": "file:./pkg-parallel",
     "comlink": "^4.3.1",
     "wasm-feature-detect": "^1.3.0"
   }
