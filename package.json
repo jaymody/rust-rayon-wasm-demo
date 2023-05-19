@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "serve": "wasm-pack build --target web --release && wasm-pack build --target web --release --out-dir pkg-parallel -- --features parallel && webpack-dev-server --open"
+    "build:st": "wasm-pack build --target web --release",
+    "build:pt": "wasm-pack build --target web --release --out-dir pkg-parallel -- --features parallel",
+    "serve": "npm run build:st && npm run build:pt && webpack-dev-server --open"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.1",
