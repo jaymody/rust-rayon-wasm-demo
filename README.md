@@ -1,3 +1,6 @@
-This is the source for the demo at https://rreverser.com/wasm-bindgen-rayon-demo/.
+Working demo of [`wasm-bindgen-rayon`](https://github.com/GoogleChromeLabs/wasm-bindgen-rayon/tree/29ea516fba8a0d65ff19a2863f0c31435d85fceb/demo) (multi-threading support via Rayon for Rust compiled wasm).
 
-<img src="https://user-images.githubusercontent.com/557590/113038444-7177eb00-918e-11eb-855b-300a582696e9.gif" width="500" />
+```
+npm install
+npm run serve
+```
